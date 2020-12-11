@@ -1,0 +1,17 @@
+{
+	"name": "SourceDataset_5e8",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "recipes"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

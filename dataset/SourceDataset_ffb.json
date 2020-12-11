@@ -1,0 +1,20 @@
+{
+	"name": "SourceDataset_ffb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage222",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Pop by Largest Final.csv",
+				"folderPath": "sourcfold",
+				"container": "sourcblob"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
